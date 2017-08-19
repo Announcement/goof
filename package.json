@@ -1,0 +1,50 @@
+{
+  "name": "goof",
+  "version": "1.0.0",
+  "description": "An evolving tool to detect dependencies and \"graph\" them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Announcement/goof.git"
+  },
+  "keywords": [
+    "graph",
+    "database",
+    "require",
+    "dependency",
+    "install",
+    "watch",
+    "recursive",
+    "tool",
+    "javascript",
+    "resolution",
+    "resolve"
+  ],
+  "author": "Jacob Francis Powers <xxv9xx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Announcement/goof/issues"
+  },
+  "homepage": "https://github.com/Announcement/goof#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "helpers": "github:Announcement/helpers",
+    "rollup": "^0.47.6"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsdoc": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-standard": "latest",
+    "eslint": "latest",
+    "rollup-plugin-commonjs": "latest",
+    "rollup-plugin-node-resolve": "latest"
+  }
+}
