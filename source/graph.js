@@ -6,6 +6,7 @@ let exists = it => it !== undefined && it !== null
 class Graph {
   constructor () {
     this.database = {}
+    this.values = {}
   }
 
   put (it) {
